@@ -1,2 +1,7 @@
-# Parallel-Algorithms
- Laboratory work on parallel algorithms
+# Лабораторные работы по предмету параллельные алгоритмы
+:octocat:
+ № Л/р | Название | Статус
+ ----- | -------- | ------
+ 1-2 | Последовательный алгоритм на C/C++/Fortran | :white_check_mark:
+ 3 | Алгоритм в векторном виде | :soon:
+ 4 | Параллельный алгоритм с MPI | :soon:
