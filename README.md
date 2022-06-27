@@ -2,6 +2,6 @@
 :octocat:
  № Л/р | Название | Статус
  ----- | -------- | ------
- 1-2 | [Последовательный алгоритм на C/C++/Fortran](/Labs/simpson.cpp) | :white_check_mark:
- 3 | Алгоритм в векторном виде | :soon:
- 4 | Параллельный алгоритм с MPI | :soon:
+ 1-2 | Последовательный алгоритм на C/C++/Fortran | :white_check_mark:
+ 3 | Алгоритм в векторном виде | :white_check_mark:
+ 4 | Параллельный алгоритм с MPI | :negative_squared_cross_mark:
