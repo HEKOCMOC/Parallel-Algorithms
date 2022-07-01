@@ -5,3 +5,21 @@
  1-2 | Последовательный алгоритм на C/C++/Fortran | :white_check_mark:
  3 | Алгоритм в векторном виде | :white_check_mark:
  4 | Параллельный алгоритм с MPI | :negative_squared_cross_mark:
+
+## Запуск программ
+Для компиляции используется компилятор `gfortran`. Для установки через homebrew выполнить в командной строке: <br/>
+```cmd
+brew install gfortran
+```
+Для л/р №1-2 запуск выполняется из командной строки следующим образом: <br/>
+```cmd
+gfortran -o simps simps.f90
+./simps
+```
+
+Для л/р №3 запуск выполняется из командной строки следующим образом: <br/>
+
+```cmd
+gfortran simps.f90 -ftree-vectorizer-verbose=1 -O3
+./a.out
+```
